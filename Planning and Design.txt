@@ -1,0 +1,33 @@
+                                                        ICO (Initial Coin Offering)
+    1. An ICO is or Inital Coin offering is a type of crowdfuding using cryptocurrencies
+
+    2. An ICO can be a souce of capital for startup companies that offer investors some units of a new cryptocurrencies or crypto tokens
+       in exchange for a well known and valuable cryptocurrency like ethereum
+
+    3. Our ICO will be a smart contract that accepts ETH in exchange for our own token named CRYPTOS(CRPT)
+
+    4. The Cryptos token is a fully complaint ERC20 token which will be generated at the ICO time 
+
+    5. Investors will send ETH to the ICO contract address and in return they will get an amount of Cryptos
+
+    6. There will be a deposit address (EOA account) that automatically receives the ETH sent to the ICO contract
+
+    7. CRPT token price will be 1CRPT = 0.001ETH or 1 ETH = 1000CRPT
+
+    8. The minimum incestment is 0.01 ETH and the maximum investment is 5ETH
+
+    9. The ICO hardcap is 300ETH
+
+    10. The ICO will have and admin that specifies when the ICO starts and ends 
+
+    11. The ICO ends when the hardcap has been reached or the end time has reached 
+
+    12. The CRPT will be traded only after a specific date which is set by the admin
+
+    13. In case of emergency the admin could stop the ICO and could also change the deposit address in case it gets compramised
+
+    14. The ICO can be in one of the following states beforeStart , runnning , afterEnd, halted
+
+    15. And we will also implement a feature to burn the token which were not sold in the ICO 
+
+    16. After an investment in the ICO the invest event will be emitted
